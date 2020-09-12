@@ -1,0 +1,909 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:85a8559d-9afe-408f-80ba-e3486b358a73#"
+     xml:base="urn:webprotege:ontology:85a8559d-9afe-408f-80ba-e3486b358a73"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:joconde="http://www2.culture.gouv.fr/documentation/joconde/fr/partenaires/AIDEMUSEES/methode.htm#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:85a8559d-9afe-408f-80ba-e3486b358a73"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74JXhaQMCBkod7U63LPnR -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R74JXhaQMCBkod7U63LPnR">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Précisions sur le(s) lieu(x) de création, d&apos;exécution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R750jb5GC5uv2Y96UzQpeyZ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R750jb5GC5uv2Y96UzQpeyZ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Découvreur</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R78IdKGxlOn1NEvOIkLw0Js -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R78IdKGxlOn1NEvOIkLw0Js">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Date d&apos;affectation au musée</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JZ3EYI0Dll6eBmYtffY59 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7JZ3EYI0Dll6eBmYtffY59">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Bibliographie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NE66tAWm3WxvorVIRA5kA -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7NE66tAWm3WxvorVIRA5kA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Historique</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7gDqDNUZADPdkv8yKrHwCY -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7gDqDNUZADPdkv8yKrHwCY">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Date de la représentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7o1b4jg84vlnRCyd5QvF2K -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7o1b4jg84vlnRCyd5QvF2K">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Ecole</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ECOL</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7uKrrBHfllkehmXZHZaK0l -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R7uKrrBHfllkehmXZHZaK0l">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Précisions sur la découverte / collecte</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8D2oQiPvTzyszOrRoYTd49 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8D2oQiPvTzyszOrRoYTd49">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Type de site de découverte, de collecte ou de récolte</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8HhTwT6kBqG2MynWVdfYGH -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8HhTwT6kBqG2MynWVdfYGH">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Période de création / exécution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Lc6xs6IMpRsEeiBp77VAU -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8Lc6xs6IMpRsEeiBp77VAU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Rédacteur</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8MjudmP2vCrPgo58GiE7Pv -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8MjudmP2vCrPgo58GiE7Pv">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Millésime de création / exécution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SKQ3ray4jOwPHTFWZamqz -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8SKQ3ray4jOwPHTFWZamqz">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Localisation de l&apos;objet dans l&apos;établissement responsable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Sf9TxonzZbDil4PF7KVzn -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8Sf9TxonzZbDil4PF7KVzn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Institution propriétaire</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8X1YKRE3bsFXNR3kMIDO3Z -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8X1YKRE3bsFXNR3kMIDO3Z">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Dénomination</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DENO</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qTCZpYr8IwXahCXJ5xrcA -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8qTCZpYr8IwXahCXJ5xrcA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Source de la représentation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qbvUd2TMxBOnlXkX6mP3P -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8qbvUd2TMxBOnlXkX6mP3P">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Date et références de l&apos;acte d&apos;acquisition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R926DskfkGIGlUcojIa61PU -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R926DskfkGIGlUcojIa61PU">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Date et références de l&apos;acte de dépôt (ou date de prise en charge du bien</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93lDYkFhGS6ZbliDdkLeTQ -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R93lDYkFhGS6ZbliDdkLeTQ">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Anciennes attributions</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95iCBtmIykPdrLVEjibQxc -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R95iCBtmIykPdrLVEjibQxc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Matériaux et techniques</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98oEuDF2fXxYQV9nafHeUi -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R98oEuDF2fXxYQV9nafHeUi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rubrique n°18 du registre de l&apos;inventaire
+
+Un objet a pu, au cours de son histoire, recevoir plusieurs numéros (autres que le numéro d&apos;inventaire).
+Par exemple un n° dans une publication qui fait référence dans la mémoire de l&apos;objet
+
+    Domaine : peinture
+    Numéro d&apos;inventaire : MBA.97.70.1
+    Autre(s) numéro(s) : 36 Cat. Deville</rdfs:comment>
+        <rdfs:label xml:lang="fr">Autre(s) Numéro(s)</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUTNUM</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9KL2IsOecIrMmTXgQeY7su -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9KL2IsOecIrMmTXgQeY7su">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Nom du donateur, testateur ou vendeur</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9QBabOM7wx7NGZZakw8Q2L -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9QBabOM7wx7NGZZakw8Q2L">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Titre</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TITR</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9V2CG51mtG8eoc67lNYZBr -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9V2CG51mtG8eoc67lNYZBr">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Précisions sur l&apos;auteur / exécutant / collecteur</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PAUT</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9aSpvgeKVSq0TlVS6DWQxV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9aSpvgeKVSq0TlVS6DWQxV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Prix d&apos;achat (en euros)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9d7Qk3lZPOFOpcg3Jjpqp6 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9d7Qk3lZPOFOpcg3Jjpqp6">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Précisions sur les lieu(x) d&apos;utilisation, destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9eHGjE0PXnwzlQcUaz6ork -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9eHGjE0PXnwzlQcUaz6ork">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Mesures</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iMKy9at6WWQEDyasqPz67 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9iMKy9at6WWQEDyasqPz67">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Date de découverte, de collecte ou de récolte</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9j2nXxKSPzWzhCeG9a7nEo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R9j2nXxKSPzWzhCeG9a7nEo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Période d&apos;utilisation, destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBBIW9TNwwf5EBBFQlnTom0 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBBIW9TNwwf5EBBFQlnTom0">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Dépôt / Etablissement dépositaire</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBRlKvYMSqZHPEhGzS98xdX -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBRlKvYMSqZHPEhGzS98xdX">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Représentation (décor porté)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBUcxrCyHMjYT3GDCqXzLQH -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBUcxrCyHMjYT3GDCqXzLQH">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Anciennes appartenances</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBXfzdwKx5PsSJSmAMWyjPz -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBXfzdwKx5PsSJSmAMWyjPz">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Etat du bien au moment de l&apos;acquisition ou du dépôt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbO3wRFuJ0YhL8WCwfTSSI -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBbO3wRFuJ0YhL8WCwfTSSI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Anciens dépôts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBejEkPTVUf6hIHhj7bs1iE -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBejEkPTVUf6hIHhj7bs1iE">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rubrique n°1 du registre de l&apos;inventaire
+Rubrique n°2 du registre des biens reçus en dépôt
+
+Seul le numéro, unique, attribué par le musée propriétaire, et marqué sur l&apos;objet a valeur juridique. Une fois porté à l&apos;inventaire, ce numéro ne doit plus être modifié.
+
+Il convient de distinguer deux cas de figure :
+
+a) l&apos;inventaire a été commencé avant les préconisations de la circulaire Georges-Henri Rivière (1957)
+Le musée a donc une numérotation qui lui est propre, du type : RF 2125, AG 638, CL. 205, ...
+Si ce type de numérotation est cohérent et fonctionne bien, on pourra continuer à l&apos;utiliser.
+Mais si un musée décide de modifier sa numérotation à partir de 2005, en aucun cas, il ne faut reprendre le passif
+
+b) La circulaire de Georges-Henri Rivière a été suivie depuis plusieurs années.
+Celle-ci préconisait un numéro d&apos;inventaire normalisé, comprenant quatre éléments séparés par des points :
+
+- l&apos;année d&apos;acquisition sur 2 ou 3 caractères.
+- le numéro d&apos;entrée de l&apos;acquisition au musée, au cours de l&apos;année d&apos;acquisition.
+- le numéro du bien au sein de cette acquisition.
+- les parties amovibles
+
+Là encore, il n&apos;est pas question de toucher au passif.
+
+    Numéro d&apos;inventaire : 987.54.17 
+
+L&apos;arrêté du 25 Mai 2004, fixant les normes techniques relatives à la tenue de l&apos;inventaire, reprend la normalisation initiée par Georges-Henri Rivière.
+Le numéro d&apos;inventaire se compose, à la base, de trois éléments séparés par des points :
+
+- 1er élément : il correspond au millésime de l&apos;année d&apos;acquisition et d&apos;affectation du bien au musée (obligatoirement sur 4 chiffres depuis 2000)
+   L&apos;année d&apos;acquisition 2004 donnera ainsi : 2004
+   Attention : le numéro d&apos;inventaire ne devant jamais être modifié, conservez le millésime sur trois chiffres pour les années antérieures à l&apos;an 2000.
+   L&apos;année d&apos;acquisition 1985 restera ainsi : 985
+
+- 2e élément (de 1 à n) : il correspond au numéro d&apos;entrée de l&apos;acquisition au musée, pour une année d&apos;acquisition considérée.
+   Ainsi, la cinquième acquisition pour l&apos;année 2004 commencera par : 2004.5
+
+- 3e élément : il correspond au numéro du bien au sein d&apos;une acquisition donnée.
+   Le terme &quot;bien&quot; peut correspondre à un objet seul ou à un ensemble d&apos;objets.
+   Le dixième bien de l&apos;acquisition cinq de l&apos;année 2004 portera le numéro : 2004.5.10
+   Le cinquième bien de l&apos;acquisition huit de l&apos;année 2008 portera le numéro 2008.8.5 .
+
+   On attribuera toujours un numéro de bien, même si l&apos;acquisition ne comporte qu&apos;un seul bien.
+   Ainsi 2004.2.1 désigne le seul et unique bien du deuxième numéro d&apos;entrée d&apos;acquisition réalisée en 2004.
+
+
+- 4e élément (facultatif) : à n&apos;utiliser que dans le cas de certains ensembles dont les éléments sont inventoriés spécifiquement pour des raisons pratiques ou scientifiques.
+      A ce niveau, il est obligatoire d&apos;utiliser des chiffres, plutôt que des lettres (lesquelles sont limitées à 26 et susceptibles pour certaines (I, O) d&apos;être confondues avec des chiffres).
+
+    - A) Ensembles simples :
+
+            1) ensemble simple comprenant plusieurs objets aisément identifiables et autonomes
+
+               Cas d&apos;un costume acquis comme 7ème bien de la 1ère acquisition réalisée en 2003 (comprenant 3 objets : une veste, un pantalon et une chemise).
+               L&apos;arrêté du 25 mai 2004 préconise de traiter chaque objet de l&apos;ensemble simple, séparément, avec un n° d&apos;inventaire à 3 éléments (comme un objet indépendant).
+        Le 3e élément du n° d&apos;inventaire sera numéroté séquentiellement, en tenant compte du précédent bien inventorié (ici=2003.1.6), ce qui donnera :
+               2003.1.7 (veste), 2003.1.8 (pantalon), 2003.1.9 (chemise)
+               Dans ce cas, le 8ème bien de la 1ère acquisition réalisée en 2003 s&apos;appellera 2003.1.10
+
+               On notera, de fait, que l&apos;arrêté n&apos;évoque pas la notion de &quot;fiche-mère&quot; (= fiche d&apos;ensemble) pour ce type d&apos;ensemble. Mais dans une gestion informatisée, cette fiche-mère permet de rapprocher les objets constitutifs entre eux, d&apos;en simplifier la recherche, et de renseigner la description et l&apos;historique communs à ces objets.
+               Le musée peut donc être autorisé, dans ce cas précis, à maintenir la création d&apos;une fiche-mère. Cette fiche-mère ne devra, en aucun cas, se substituer à la rédaction des fiches-filles (= fiche d&apos;élément d&apos;ensemble), décrivant les éléments de l&apos;ensemble, pièce à pièce.
+        Il conviendra également, lors des comptages d&apos;objets, de penser à exclure toutes les fiches-mères dont le signe distinctif est qu&apos;elles se terminent toutes par .0
+
+        Pour le costume 2003.1.7.0 on aura ainsi :
+                 Dénomination : costume (ensemble) ; veste (1) ; pantalon (1) ; chemise (1)
+                 Numéro d&apos;inventaire : 2003.1.7.0
+
+                 Dénomination : veste (élément d&apos;ensemble)
+                 Numéro d&apos;inventaire : 2003.1.7.1
+
+                 Dénomination : pantalon (élément d&apos;ensemble)
+                 Numéro d&apos;inventaire : 2003.1.7.2
+
+                 Dénomination : chemise (élément d&apos;ensemble)
+                 Numéro d&apos;inventaire : 2003.1.7.3
+                 Et dans ce cas, le 8ème bien de la 1ère acquisition, réalisée en 2003 s&apos;appellera bien 2003.1.8
+
+               Autre exemple : celui d&apos;un service de table comprenant 6 assiettes plates et 6 assiettes à dessert, correspondant au 5ème bien de la 3ème d&apos;acquisition réalisée en 2007
+               Conformément à l&apos;arrêté, le 3ème item du numéro d&apos;inventaire doit être séquentiel, par rapport au précédent bien inventorié (ici=2007.3.4), ce qui donnera :
+
+                 2007.3.5 ; 2007.3.6 ; 2007.3.7 ; 2007.3.8 ; 2007.3.9 ; 2007.3.10 ; 2007.3.11 ; 2007.3.12 ; 2007.3.13 ; 2007.3.14 ; 2007.3.15 ; 2007.3.16
+                 Dans ce cas, le 6ème bien de la 3ème acquisition réalisée en 2007 s&apos;appelera 2007.3.17
+
+               Comme pour le costume, vu plus haut, le musée peut être autorisé à créer une &quot;fiche-mère&quot; service de table 2007.3.5.0, en déclinant ensuite les 12 fiches filles.
+               2007.3.5.1 ; 2007.3.5.2 ; 2007.3.5.3 ; 2007.3.5.4 ; 2007.3.5.5 ; 2007.3.5.6 ; 2007.3.5.7 ; 2007.3.5.8 ; 2007.3.5.9 ; 2007.3.5.10 ; 2007.3.5.11 ; 2007.3.5.12
+
+                 Dénomination : service de table (ensemble) ; assiette plate (6) ; assiette à dessert (6)
+                 Numéro d&apos;inventaire : 2007.3.5.0
+
+
+                 Dénomination : assiette plate (élément d&apos;ensemble)
+                 Numéro d&apos;inventaire : 2007.3.5.1
+
+                 ....
+
+                 Dénomination : assiette plate (élément d&apos;ensemble)
+                 Numéro d&apos;inventaire : 2007.3.5.6
+
+                 Dénomination : assiette à dessert (élément d&apos;ensemble)
+                 Numéro d&apos;inventaire : 2007.3.5.7
+
+                 ....
+
+                 Dénomination : assiette à dessert (élément d&apos;ensemble)
+                 Numéro d&apos;inventaire : 2007.3.5.12
+                 Et dans ce cas, le 6ème bien de la 3ème acquisition réalisée en 2007 s&apos;appellera bien 2007.3.6
+
+
+        2) ensemble simple comprenant plusieurs objets aisément identifiables mais non autonomes
+          - cas d&apos;une soupière et de son couvercle correspondant au 2ème bien de la 6ème acquisition réalisée en 2009
+
+           - Soit on décline une seule fiche de type 2009.6.2
+
+           Dénomination : soupière ; couvercle
+           Numéro d&apos;inventaire : 2009.6.2
+
+           - Soit on décline deux fiches &quot;liées&quot; mais sans fiche-mère 2009.6.2
+
+             Dénomination : soupière
+             Numéro d&apos;inventaire : 2009.6.2.1
+
+             Dénomination : couvercle
+             Numéro d&apos;inventaire : 2004.6.2.2
+
+           Cas des paires : On appliquera le mode de numérotation évoqué ci-dessus :
+
+           - Soit on décline une seule fiche de type 2005.2.3
+
+             Dénomination : mocassin (paire)
+             Numéro d&apos;inventaire : 2005.2.3
+
+           - Soit on décline deux fiches &quot;liées&quot; mais sans fiche-mère 2005.2.3
+
+             Dénomination : mocassin
+             Numéro d&apos;inventaire : 2005.2.3.1
+             Description : pied droit d&apos;une paire de mocassins
+
+             Dénomination : mocassin
+             Numéro d&apos;inventaire : 2005.2.3.2
+             Description : pied gauche d&apos;une paire de mocassins
+
+    Important : Quelle que soit la numérotation choisie, on s&apos;appliquera à respecter ce choix pour tous les objets de même nature.
+
+    - B) Ensembles complexes, en masse, avec sous-inventaire
+       Informations précisées dans l&apos;arrêté du 25 mai 2004 :
+
+        Titre 1er : Inventaire des biens affectés aux collections d&apos;un musée de France - Art. 4.
+        &quot;- L&apos;enregistrement à l&apos;inventaire d&apos;un musée de France d&apos;un ensemble complexe de biens ou d&apos;une masse d&apos;objets quantitativement importante issus de fouilles ou de collectes scientifiques et techniques (archéologie, ethnologie, histoire naturelle,...) ou de toute autre forme de collecte et d&apos;acquisition peut être effectué sous un numéro unique. Ce numéro unique renvoie à l&apos;inventaire initial détaillé, dénommé sous-inventaire, réalisé lors de la fouille, de la collecte ou de l&apos;acquisition, après vérification de la fiabilité de ce sous-inventaire et du marquage initial des biens.
+        Le sous-inventaire permet l&apos;identification sans ambiguïté des biens de l&apos;acquisition ...&quot;
+
+    Pour la numérotation de l&apos;ensemble complexe et de chacune de ses pièces remarquables, on se conformera strictement aux normes édictées dans l&apos;arrêté du 25 mai 2004 à l&apos;article 2.c de l&apos;annexe 2 :
+        &quot;L&apos;ensemble du matériel issu d&apos;une même fouille ou d&apos;une même collecte est identifié par un seul numéro d&apos;inventaire, composé de trois éléments.
+
+        Le premier élément est le millésime de l&apos;année d&apos;acquisition et d&apos;affectation de l&apos;ensemble au musée.
+        Exemple : 2004.
+        Le deuxième élément est le numéro d&apos;entrée au musée de l&apos;acquisition que constitue l&apos;ensemble.
+        Exemple : 2004.3 désigne la troisième acquisition de l&apos;année 2004.
+        Le troisième élément est le chiffre &quot; 0 &quot; qui permet d&apos;indiquer qu&apos;il s&apos;agit d&apos;un ensemble complexe.
+        Exemple : 2004.3.0 indique que la troisième acquisition de l&apos;année 2004 est un ensemble complexe.
+
+        Si l&apos;ensemble comporte des biens remarquables isolément, ceux-ci, lors de l&apos;inscription de l&apos;ensemble complexe à l&apos;inventaire, sont numérotés séparément, après le numéro attribué à l&apos;ensemble, sur le modèle suivant.
+        Exemple : 2004.3.0 désigne l&apos;ensemble complexe ; 2004.3.1 désigne le premier bien remarquable de cet ensemble ; 2004.3.2 désigne le deuxième bien remarquable.
+        Dans ce cas pour chaque bien, les rubriques de l&apos;inventaire sont remplies conformément au paragraphe 1.a de l&apos;annexe 1 du présent arrêté &quot; 
+
+    En conclusion, qu&apos;il s&apos;agisse d&apos;ensembles simples ou complexes, le &quot;0&quot; en dernière position du numéro d&apos;inventaire du bien indique que celui-ci est un ensemble.
+
+    Cas d&apos;un inventaire rétrospectif
+    Un bien entré antérieurement dans les collections, mais qui n&apos;a pas été porté à l&apos;inventaire, même sous forme de minute, sera enregistré comme suit :
+    - 1er élément du numéro : millésime de l&apos;année où l&apos;on procède à l&apos;inventaire rétrospectif de l&apos;objet considéré.
+    - 2ème élément : représentant habituellement le numéro d&apos;entrée de l&apos;acquisition au musée, est remplacé ici par le chiffre 0, pour éviter toute confusion avec les acquisitions de l&apos;année en cours.
+    - 3ème élément : désigne le numéro du bien (de 1 à n) inscrit à titre rétrospectif au sein de l&apos;année considérée.
+    Ainsi : 2004.0.2 désigne le 2e objet inventorié à titre rétrospectif en 2004.
+
+    Numéros d&apos;inventaire d&apos;objets en rapport
+    Les logiciels de gestion des collections permettent de créer des liens entre plusieurs notices (objets associés, objets en rapport). Indiquez les informations les concernant dans le champ objet associé
+
+        Numéro d&apos;inventaire : 985.5.12
+        Objet associé : voir objet en rapport : estampe 984.8.7
+
+    Numéros d&apos;inventaire des doubles (pour les multiples) conservés dans le musée
+    Indiquez les également dans le champ objet associé
+
+        Numéro d&apos;inventaire : Inv. 4325
+        Objet associé : voir numéros d&apos;inventaire des autres éléments : Inv. 4326 (double), Inv. 4327, Inv. 4328 (double)...
+
+    Numéros d&apos;inventaire des éléments d&apos;un ensemble enregistré sous plusieurs numéros
+    Il peut s&apos;agir, par exemple, du cas de la reconstitution d&apos;un ensemble dispersé préalablement à son entrée dans le musée.
+
+        Dénomination : collier
+        Numéro d&apos;inventaire : 2004.4.5
+        Objet associé : collier appartenant à une parure composée également de deux boucles d&apos;oreilles (980.1.2 et 980.1.3) et d&apos;un anneau de bras (983.7.1)
+
+    Objet brisé puis reconstitué
+    Si les fragments ont été acquis à différentes dates et/ou de différentes manières et portent donc des numéros d&apos;inventaire différents, traitez néanmoins l&apos;objet comme un tout en indiquant les différents numéros d&apos;inventaire :
+
+        Numéro d&apos;inventaire : 945.1.1 ; 990.5.1
+        Dénomination : propulseur
+        Titre : bison se léchant
+        Historique : Les deux morceaux de ce bison découvert brisé en 1925 furent dispersés peu après. M. Duval donna l&apos;avant train au musée en 1945, l&apos;arrière train a été acheté en vente publique en 1990
+
+    Objet sans numéro (à n&apos;utiliser que le temps de rassembler l&apos;information permettant d&apos;inscrire l&apos;objet)
+    Utilisez les termes Sans n° ou SN.</rdfs:comment>
+        <rdfs:label xml:lang="fr">Numéro d&apos;inventaire</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">INV</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlUUrVPbJx3AqH6QvdkUID -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBlUUrVPbJx3AqH6QvdkUID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Appellations</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">APPL</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpsCrHPQl1qBWaJ3u8xNFd -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBpsCrHPQl1qBWaJ3u8xNFd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Lieu(x) d&apos;utilisation, destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqIaIznjxcneAUGSWgEChK -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBqIaIznjxcneAUGSWgEChK">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Mode d&apos;acquisition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqdRXJjml1JxEc1wPKzbnu -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBqdRXJjml1JxEc1wPKzbnu">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Méthode de collecte / récolte</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9NKrbt5w8P1OQJrMRQvLB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RC9NKrbt5w8P1OQJrMRQvLB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Objet(s) associé(s)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBGU4xmlXKtihuwjaBiTYB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCBGU4xmlXKtihuwjaBiTYB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Millésime d&apos;utilisation, destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCFQPW2cVeAIEwVlmGoWDd -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCCFQPW2cVeAIEwVlmGoWDd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Exposition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCdX2Gz7bqkRXCrjGhsVoC3 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCdX2Gz7bqkRXCrjGhsVoC3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Genèse (stade de création)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCoYKHjTJ4RnzND4N0czVbz -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCoYKHjTJ4RnzND4N0czVbz">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Description</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCornquqmmG64hFGDvAvJEm -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCornquqmmG64hFGDvAvJEm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Lieu de découverte, de collecte ou de récolte</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCsGRKwtbMUur9x8d3S4MEo -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCsGRKwtbMUur9x8d3S4MEo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Précisions sur l&apos;utilisation, destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHGwy83H2jPIe1rYJDlKBj -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDHGwy83H2jPIe1rYJDlKBj">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Domaine</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOMN</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXGC6ttDtf0qopfvl9qhz4 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDXGC6ttDtf0qopfvl9qhz4">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Lieu(x) de création / d&apos;exécution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDYtHCVONNkVoPucoD2LWyV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDYtHCVONNkVoPucoD2LWyV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Epoque / style / mouvement</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDbrSznjoKPeJtEEzYynu32 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDbrSznjoKPeJtEEzYynu32">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Utilisation, destination</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDmEwlh2Qr9xdIhvb97FLBh -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDmEwlh2Qr9xdIhvb97FLBh">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Date d&apos;inscription au registre des biens reçus en dépôt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDmctiVEFXFmbTAdbVSYbDV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDmctiVEFXFmbTAdbVSYbDV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Date et références de l&apos;acte mettant fin au dépôt (et / ou date de restitution du bien)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDx1zBEl8IWRSobtxmoKnX5 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDx1zBEl8IWRSobtxmoKnX5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Auteur / exécutant / collecteur</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AUTR</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDzJomVH1UTAZ4mP5UzVejA -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RDzJomVH1UTAZ4mP5UzVejA">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Crédits photographiques</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RLBm8Z6yL79zp3yfUVXeRV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RLBm8Z6yL79zp3yfUVXeRV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Mention des concours publics</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSnvPyxSJblwHdx2OIOslV -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RSnvPyxSJblwHdx2OIOslV">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Avis des instances scientifiques compétentes en matière d&apos;acquisition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXQ9Zv2SlaEd2ISlqxXp2Q -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RXQ9Zv2SlaEd2ISlqxXp2Q">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Onomastique</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXvvVgVwaALRglT1aSIStm -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RXvvVgVwaALRglT1aSIStm">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Etat actuel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbqOPZ0XgctCzFKUDTEvt9 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RbqOPZ0XgctCzFKUDTEvt9">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Un objet a pu, au cours de son histoire, recevoir plusieurs numéros (autres que le numéro d&apos;inventaire en usage).
+Il peut s&apos;agir d&apos;un numéro donné par un collectionneur, de numéros donnés postérieurement au premier numéro d&apos;inventaire, etc.
+Il convient de garder la mémoire de ces numéros : transcrivez les successivement, entre séparateurs, en prenant soin de placer le numéro habituellement usité par le musée en première position :
+
+    Numéro d&apos;inventaire : 2005.1.2
+    Ancien(s) numéro(s) : RF 240</rdfs:comment>
+        <rdfs:label xml:lang="fr">Ancien(s) Numéro(s)</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ANCNUM</skos:altLabel>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rdu2b23y1Il28g7v3y9Hg5 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rdu2b23y1Il28g7v3y9Hg5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Commentaires</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfIMhVEtgk1DiBXI3ddyPw -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RfIMhVEtgk1DiBXI3ddyPw">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Inscriptions</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgNzkdb69dM2PZk2r2iSHW -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RgNzkdb69dM2PZk2r2iSHW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Numéro de site SDA</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhRaeUleE9U0hQRuujeUC2 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RhRaeUleE9U0hQRuujeUC2">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Précisions sur la représentation (décor porté)</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RltDhIoBNfwiqruhLkKZrf -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RltDhIoBNfwiqruhLkKZrf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Type de propriété</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rr7dZm27t0DLLhs8a7uytL -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rr7dZm27t0DLLhs8a7uytL">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Géographie historique</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsDbaJbQC7Xm0thJkj9YGc -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RsDbaJbQC7Xm0thJkj9YGc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Période de l&apos;original copié</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rsq1ZzLVTlnFi5nsUKNNHD -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rsq1ZzLVTlnFi5nsUKNNHD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Etablissement affectataire</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rugn8JB4AEDdG31i3wgmez -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/Rugn8JB4AEDdG31i3wgmez">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Date d&apos;inscription au registre d&apos;inventaire</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RveuTMDWdBtkcBuskbf86P -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RveuTMDWdBtkcBuskbf86P">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="fr">Précisions sur les inscriptions</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC0vvSpVSy2eE6UDajRxN29 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC0vvSpVSy2eE6UDajRxN29">
+        <rdfs:label xml:lang="fr">Objet</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
